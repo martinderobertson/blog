@@ -1,5 +1,5 @@
-theme: minima
+#theme: minima
 remote_theme: daviddarnes/alembic@main
 title: Microfascinations with business, technology, and language
 author: Martin De Robertson
-Description: A blog by Martin De Robertson
+description: A blog by Martin De Robertson
