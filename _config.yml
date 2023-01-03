@@ -58,6 +58,20 @@ author:
     #   icon: 'fab fa-fw fa-stack-overflow'
     #   url: &stackOverflowUrl 'https://stackoverflow.com/'
       
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
 # Site Footer
 footer:
   links:
