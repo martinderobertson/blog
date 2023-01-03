@@ -1,5 +1,7 @@
 #theme: minima
 #remote_theme: daviddarnes/alembic@main
+# Full minimal-mistakes config options available at: 
+# https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: 'contrast' # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -85,3 +87,21 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
   - jemoji
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
