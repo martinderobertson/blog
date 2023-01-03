@@ -1,3 +1,15 @@
+---
+title: "Testing Blog Post Syntax"
+date: 2023-01-02
+header:
+  teaser: "assets/images/markup-syntax-highlighting-teaser.jpg"
+categories:
+  - meta
+tags:
+  - test
+  - syntax
+---
+
 # Heading 1
 
 ## Heading 2
