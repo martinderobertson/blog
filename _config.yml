@@ -36,7 +36,7 @@ words_per_minute: 100
 
 author:
   author: Martin De Robertson
-  name: *author
+  name: Martin De Robertson
   avatar: '/assets/images/avatar.jpg' # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: 'My occasional fascinations with niche microtopics sometimes burn bright enough to warrant putting pen to paper'
   #location: ''
@@ -71,13 +71,6 @@ defaults:
       comments: false
       share: false
       related: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
 
 # Site Footer
 footer:
