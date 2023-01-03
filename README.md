@@ -1,6 +1,6 @@
 ## Martin De Robertson's blog
 
-### Resources
+### Resources, or How To Add New Content
 Originally cloned from:
 https://github.com/skills/github-pages
 
@@ -8,6 +8,9 @@ Alternate "theme" (`Minimal Mistakes`) "installed" via:
 * https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 
 (Note that "theme" here means way more than just the colors and layout. Basically any new page or element or asset or whatever should be through this)
+
+New content isn't limited to just blog posts. See here for additional types of pages this theme can make
+https://github.com/mmistakes/minimal-mistakes
 
 ### Testing
 
