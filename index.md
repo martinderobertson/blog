@@ -1,5 +1,5 @@
 ---
-title: Microfascinations with business, technology, and language
+title: ""
 author: Martin De Robertson
 ---
 
