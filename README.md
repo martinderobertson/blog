@@ -4,9 +4,16 @@
 Originally cloned from:
 https://github.com/skills/github-pages
 
-Alternate theme (Alembic) "installed" up via:
-https://github.com/daviddarnes/alembic
-(Just the `_config.yml:remote_theme` bit)
+Alternate "theme" (`Minimal Mistakes`) "installed" via:
+* https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+
+(Note that "theme" here means way more than just the colors and layout. Basically any new page or element or asset or whatever should be through this)
+
+### Testing
+
+Local testing _should_ be achievable. I think macOS comes with too low of a Ruby version or something. I think the work I did for that is on the `new-jekyll-theme-alembic-2` branch; this included something like figuring out how to install `nokogiri` and some other bullshit
+
+Pro tip: `bundle exec ...` is a nice convenient shortcut through doing things through the Ruby bundler, like `npm` or `venv` or whatever the hell.
 
 ### Administrivia
 
