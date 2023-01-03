@@ -10,7 +10,7 @@ locale: 'en-US'
 #title: "Martin De Robertson's Bloh"
 title: 'Microfascinations with business, technology, and language'
 title_separator: '|'
-subtitle: " " # site tagline that appears below site title in masthead
+subtitle: "by Martin De Robertson" # site tagline that appears below site title in masthead
 #description: A blog by Martin De Robertson
 description: 'Technology, Organization, and Business'
 url: &url 'https://martinderobertson.github.io' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
