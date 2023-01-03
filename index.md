@@ -1,6 +1,5 @@
 ---
-#title: Welcome to my blog  
+title: Microfascinations with business, technology, and language
 author: Martin De Robertson
 ---
 
-Microfascinations with business, technology, and language
