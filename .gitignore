@@ -1,3 +1,8 @@
+# Ruby things #
+###############
+vendor/
+.bundle/
+
 # Compiled source #
 ###################
 *.com
