@@ -1,5 +1,89 @@
-theme: minima
-#remote_theme: daviddarnes/alembic@main
-title: Microfascinations with business, technology, and language
 author: Martin De Robertson
-description: A blog by Martin De Robertson
+
+#theme: minima
+#remote_theme: daviddarnes/alembic@main
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: 'contrast' # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale: 'en-US'
+#title: "Martin De Robertson's Bloh"
+title: 'Microfascinations with business, technology, and language'
+title_separator: '|'
+subtitle: # site tagline that appears below site title in masthead
+name: 'Martin De Robertson'
+#description: A blog by Martin De Robertson
+description: 'Technology, Organization, and Business'
+url: &url 'https://martinderobertson.github.io' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: '/blog' # the subpath of your site, e.g. "/blog"
+repository: 'martinderobertson/blog' # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser: '/assets/images/page-cover.png' # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title: 'masthead_title' # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs: true # true, false (default)
+words_per_minute: 100
+
+search: false # true, false (default)
+search_full_content: # true, false (default)
+search_provider: lunr # lunr (default), algolia, google
+algolia:
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
+google:
+  search_engine_id: # YOUR_SEARCH_ENGINE_ID
+  instant_search: # false (default), true
+
+author:
+  name: *name
+  avatar: '/assets/images/avatar.jpg' # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: 'My occasional fascinations with niche microtopics sometimes burn bright enough to warrant putting pen to paper'
+  #location: ''
+  #email: 'martinderobertson@gmail.com'
+  links:
+    - label: 'Website'
+      icon: 'fas fa-fw fa-link'
+      url: 'https://martinderobertson.github.io/blog'
+    - label: 'Twitter'
+      icon: 'fab fa-fw fa-twitter-square'
+      url: &twitterUrl 'https://twitter.com/mderobertson'
+    - label: 'GitHub'
+      icon: 'fab fa-fw fa-github'
+      url: &githubUrl 'https://github.com/martinderobertson'
+    # - label: 'Facebook'
+    #   icon: 'fab fa-fw fa-facebook-square'
+    #   url: &fbUrl 'https://www.facebook.com/'
+    # - label: 'StackOverflow'
+    #   icon: 'fab fa-fw fa-stack-overflow'
+    #   url: &stackOverflowUrl 'https://stackoverflow.com/'
+      
+# Site Footer
+footer:
+  links:
+    - label: 'Twitter'
+      icon: 'fab fa-fw fa-twitter-square'
+      url: *twitterUrl
+    - label: 'LinkedIn'
+      icon: 'fab fa-fw fa-linkedin'
+      url: *linkedinUrl
+    - label: 'GitHub'
+      icon: 'fab fa-fw fa-github'
+      url: *githubUrl
+
+plugins:
+  - jekyll
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jemoji
+whitelist:
+  - jekyll
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jemoji
