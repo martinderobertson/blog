@@ -1,5 +1,3 @@
-author: Martin De Robertson
-
 #theme: minima
 #remote_theme: daviddarnes/alembic@main
 remote_theme: "mmistakes/minimal-mistakes"
@@ -10,8 +8,7 @@ locale: 'en-US'
 #title: "Martin De Robertson's Bloh"
 title: 'Microfascinations with business, technology, and language'
 title_separator: '|'
-subtitle: # site tagline that appears below site title in masthead
-name: 'Martin De Robertson'
+subtitle: " " # site tagline that appears below site title in masthead
 #description: A blog by Martin De Robertson
 description: 'Technology, Organization, and Business'
 url: &url 'https://martinderobertson.github.io' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -23,20 +20,21 @@ masthead_title: 'masthead_title' # overrides the website title displayed in the 
 breadcrumbs: true # true, false (default)
 words_per_minute: 100
 
-search: false # true, false (default)
-search_full_content: # true, false (default)
-search_provider: lunr # lunr (default), algolia, google
-algolia:
-  application_id: # YOUR_APPLICATION_ID
-  index_name: # YOUR_INDEX_NAME
-  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
-  powered_by: # true (default), false
-google:
-  search_engine_id: # YOUR_SEARCH_ENGINE_ID
-  instant_search: # false (default), true
+# search: false # true, false (default)
+# search_full_content: # true, false (default)
+# search_provider: lunr # lunr (default), algolia, google
+# algolia:
+#   application_id: # YOUR_APPLICATION_ID
+#   index_name: # YOUR_INDEX_NAME
+#   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+#   powered_by: # true (default), false
+# google:
+#   search_engine_id: # YOUR_SEARCH_ENGINE_ID
+#   instant_search: # false (default), true
 
 author:
-  name: *name
+  author: Martin De Robertson
+  name: *author
   avatar: '/assets/images/avatar.jpg' # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: 'My occasional fascinations with niche microtopics sometimes burn bright enough to warrant putting pen to paper'
   #location: ''
